@@ -1,7 +1,7 @@
 # Learning-Django
 from today 1 august 2026, i started to learn django for backend services.
 
-~ installation setup :-
+# installation setup :-
 before installation some setup required as well 
 1. pip install uv
 2. uv venv
