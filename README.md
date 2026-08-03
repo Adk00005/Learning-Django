@@ -24,5 +24,5 @@ starts django projects command :- django-admin startproject chaiaurDjango
 2. Render -> templates folder by views.py
 3. Template Engine -> Inject Programatical code and add code in html by code injecting.
 4. Folders -> files
-   i. templates -> index.html
-  ii. static -> style.css, scripts.py 
+   (i). templates -> index.html
+  (ii). static -> style.css, scripts.js
