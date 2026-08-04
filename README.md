@@ -26,3 +26,10 @@ starts django projects command :- django-admin startproject chaiaurDjango
 4. Folders -> files
    (i). templates -> index.html
   (ii). static -> style.css, scripts.js
+
+# Jinja2 and Django app connected 
+1. jinja2 -> Django template language
+2. We generally use default  templates in django.
+3. > if new templates use then easy define into settings .py 
+4. > here we use  chai .py
+5. CookedInfiles > files by django
