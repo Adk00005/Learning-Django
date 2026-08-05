@@ -33,3 +33,16 @@ starts django projects command :- django-admin startproject chaiaurDjango
 3. if new templates use then easy define into settings .py 
 4. here we use  chai .py
 5. CookedInfiles > files by django
+
+# Tailwind and admin panel setup 
+1. pip install django-tailwind > add tailwind app name > runserver > tailwind runserver > setting.py > add NPM_BIN_PATH = r"D:\program files\etc\etc"
+2. django_browser_reload -> add into installed apps of setting.py > (to avoid reloading)
+3. add "django_browser_reload" links into middleware of settings.py > (from documentation)
+4. add django_browser_related path to url.py > (put at very last helps in production time to remove it lastly)
+5. migration -> we can't directly talk to databases but django can using "ORM" to talk to database.
+6. migration allows admin panel and its userID password addition.
+7. migration 2 commands are:-
+8. i. python manage.py migrate > then add /admin after url address. > (for admin panel)
+9. ii. python manage.py createsuperuser > (for ID and password)
+10. lastly -> python manage.py runserver > (localhost link open)
+11. Django is a "batteries-included" Python web framework > provides a complete collection of built-in tools and modules right out of the box.
