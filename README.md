@@ -56,5 +56,5 @@ starts django projects command :- django-admin startproject chaiaurDjango
 6. views.py -> Database details visible to frontend part template
 7. added description field in database -> models.py - description = model. etc... -> migrate in database make migrations then migrate -> runserver
 8. ORM - no sql query required only what to do in model.py in python.
-9. {} - variables
+9. { } - variables
 10. % % - templates 
