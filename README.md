@@ -46,3 +46,15 @@ starts django projects command :- django-admin startproject chaiaurDjango
 9. ii. python manage.py createsuperuser > (for ID and password)
 10. lastly -> python manage.py runserver > (localhost link open)
 11. Django is a "batteries-included" Python web framework > provides a complete collection of built-in tools and modules right out of the box.
+
+# Database Connectivity and Migrations and admin panel interaction 
+1. Database should be in  sepreate file - helps in production
+2. no interaction to DB -> write on models.py -> it runs sql query in background.
+3. model.py(in app file) -> add all DB constraints -> settings.py (edit in root folder) -> url.py (add links settings, static, others....)
+4. Migrations - manually tells by django to databases about changes to load files -> "python manage.py makemigrations app_folder_name" & "python manage.py migrate"
+5. admin.py - inside it attach or add models -> from .models import ChaiVarity & admin.site.register(ChaiVarity)
+6. views.py -> Database details visible to frontend part template
+7. added description field in database -> models.py - description = model. etc... -> migrate in database make migrations then migrate -> runserver
+8. ORM - no sql query required only what to do in model.py in python.
+9. {} - variables
+10. % % - templates 
