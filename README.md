@@ -58,3 +58,12 @@ starts django projects command :- django-admin startproject chaiaurDjango
 8. ORM - no sql query required only what to do in model.py in python.
 9. { } - variables
 10. % % - templates 
+# Database Relationships in Django 
+
+1. 3 Types :- one-to-many, one-to-one, ,many-to-many
+2. "cascade" in DB :- cascade is a database configuration rule that automatically propagates data changes from a parent table down to all related child tables. a configuration rule that automatically propagates data changes from a parent table down to all related child tables. It is defined directly on a foreign key constraint to maintain referential integrity, ensuring that your data relationships never point to broken or non-existent records.
+4. Make models of ChaiVarity previously > study fields > all relationships
+5. one-to-many field:- foreign key rquire make
+6. many-to-many field:- admin interface > so that any data comes and goes to any field
+7. one-to-one field:- one entity gets only one certificate bcz django restricts this ownself.
+8. after making all fields > stop server > makemigrations (always after change in DB) > migrate > update admin.py(add links of models.py so that user can add data)
