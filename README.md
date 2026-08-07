@@ -66,4 +66,4 @@ starts django projects command :- django-admin startproject chaiaurDjango
 5. one-to-many field:- foreign key rquire make
 6. many-to-many field:- admin interface > so that any data comes and goes to any field
 7. one-to-one field:- one entity gets only one certificate bcz django restricts this ownself.
-8. after making all fields > stop server > makemigrations (always after change in DB) > migrate > update admin.py(add links of models.py so that user can add data)
+8. after making all fields > stop server > makemigrations (always after change in DB) > migrate > update admin.py(add links of models.py so that user can add data by interacting with frontend of admin).
