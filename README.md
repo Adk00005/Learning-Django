@@ -10,7 +10,7 @@ before installation some setup required as well
 
 starts django projects command :- django-admin startproject chaiaurDjango
 
-# files levels 
+# Files Levels 
 1. project levels - file name level
 2. Root levels - manage.py ~ after installation this file visible
 3. settings.py - Django details -> helpful in Production works
