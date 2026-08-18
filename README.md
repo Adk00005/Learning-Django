@@ -79,7 +79,7 @@ starts django projects command :- django-admin startproject chaiaurDjango
 
 ~ Just for understanding purpose based on learning experience.
 
-1. Configurations:- requirements.txt > (pip freeze -> requirements.txt), venv > (requirements.txt -> file/folder -> migrations->migrate), settings.py -> os, setup > url.py, static file, template
+1. Configurations:- requirements.txt > (pip freeze -> requirements.txt), venv > (requirements.txt -> file/folder -> migrations->migrate), settings.py -> os, setup > url.py, static file, template.
 2. layout.html 
 3. index.html
 4. navbar
