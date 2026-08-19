@@ -88,5 +88,5 @@ starts django projects command :- django-admin startproject chaiaurDjango
 7. Layout is a form in Django > protect by Django
 8. layout templates
 9. connect > models.py with forms.py
-10. codes in every files and run the projects well here we use bootstrap for navbar and cards in frontend.
+10. Codes in every files and run the projects well here we use bootstrap for navbar and cards in frontend.
 11. last one > database > simple sqlite lightweight used save names and descriptions with photos of every photos.
