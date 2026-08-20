@@ -19,7 +19,7 @@ starts django projects command :- django-admin startproject chaiaurDjango
 6. models.py - databases connections (sqlite file name -> connects -> every knowned database)
 # Django request to response data flows  ~ "MVT architecture"
 
-"user -> request -> urls .py -> views .py -> models .py -> DB (or/) views .py -> response -> templates" 
+"user -> request -> urls .py -> views .py -> models .py -> DB (or/) views .py -> response -> templates"
 1. Response -> views.py
 2. Render -> templates folder by views.py
 3. Template Engine -> Inject Programatical code and add code in html by code injecting.
