@@ -1,14 +1,14 @@
 # Learning-Django
 from today 1 august 2026, i started to learn django for backend.
 
-# installation setup :-
+# installation setup
 before installation some setup required as well 
 1. pip install uv
 2. uv venv or directly create virtual env using (python -m venv .venv)
 3. venv/scripts/activate  or  .\.venv\Scripts\Activate.ps1
 4. uv pip install Django
 
-starts django projects command :- django-admin startproject chaiaurDjango
+starts django projects command -> django-admin startproject chaiaurDjango
 
 # Files Levels
 1. project levels - file name level
