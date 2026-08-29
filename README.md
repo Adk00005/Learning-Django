@@ -17,6 +17,7 @@ starts django projects command -> django-admin startproject chaiaurDjango
 4. url.py - needs in Routing
 5. views - Business logic (url.py -> route handle -> views)
 6. models.py - databases connections (sqlite file name -> connects -> every knowned database)
+
 # Django request to response data flows  ~ "MVT architecture"
 
 "user -> request -> urls .py -> views .py -> models .py -> DB (or/) views .py -> response -> templates"
