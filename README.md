@@ -1,5 +1,5 @@
 # Learning-Django
-from today 1 august 2026, i started to learn django for backend.
+from today 1 august 2026, i started to learn django for backend and also will used in some projects as well.
 
 # Installation setup
 ~ before installation some setup required as well 
